@@ -35,7 +35,7 @@ public class Conta {
 		balanco += taxa;
 	}
 	
-	public void whitdraw(double taxa) {
+	public void saque(double taxa) {
 		balanco -= taxa + 5.0;
 	}
 	
